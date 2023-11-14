@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(#E9F2F5, #CEE0E7);
+  font-family: 'Roboto';
+}
+
+.card {background-color:white;height:350px;width:250px;border:1px solid;}
+
+.photo{background-image: url("https://raw.githubusercontent.com/GrandioseBehavior/notion-coven/main/edit.png");width:250px;height:170px;background-size:100%}
+
+.title{height:30px;width:100%;background-color: black;color:white;font-size:13px;display:flex;align-items: center;justify-content:center;text-transform: uppercase;font-weight: bold;text-shadow:1px 1px hotpink;}
+
+.company{height:34px;width:100%;font-size:24px;padding-left:15px;padding-right:10px;margin-top:5px;color:hotpink;text-shadow: 1px 1px black;font-weight: bolder;}
+
+.descript {height:40px; width:225px;font-size:14px;display:flex;align-items:center;justify-content: center;padding-left:15px;padding-right:15px;padding-bottom:5px;}
+
+.last{height:20px;width:95%;display:flex;align-items:center;justify-content:right;font-size:12px;font-weight:light;padding-bottom:6px;color:grey;}
+
+.shop{animation-name: shop;animation-duration: 4s; animation-iteration-count: infinite;height:37px;display:flex;align-items: center;justify-content: center;text-transform:uppercase;font-weight:bolder;font-size:15px;padding-top:2px;text-shadow:1px 1px white;border-top:1px solid black;}
+
+@keyframes shop {
+  0%   {background-color:#F8A400;}
+  25%  {background-color:#E1C0D6;}
+  50%  {background-color:hotpink;}
+  75%  {background-color:#E1C0D6;}
+  100% {background-color:#F8A400;}
